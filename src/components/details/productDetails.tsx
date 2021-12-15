@@ -1,6 +1,6 @@
-import { Button } from "@mui/material";
+import { Button, IconButton } from "@mui/material";
 import * as React from "react";
-
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 export interface IProductDetailsProps {}
 
 export default function ProductDetails(props: IProductDetailsProps) {
@@ -15,9 +15,11 @@ export default function ProductDetails(props: IProductDetailsProps) {
         <div>details</div>
         <div>delivery & return </div>
       </div>
-      <div className="m(1rem)">
-        <span>icon</span>
-        <Button variant="contained" color="secondary">
+      <div className="m(1rem) d(flex) jc(c) ai(c)">
+        <IconButton>
+          <FavoriteBorderIcon className="b(grey200) br(c) p(1rem)" />
+        </IconButton>
+        <Button variant="contained" className="br(20px) w(250px)">
           Add to Cart
         </Button>
       </div>

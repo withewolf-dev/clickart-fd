@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 252, 251);
   padding-left: 2rem;
   padding-right: 2rem;
-  /* padding-top: 2rem; */
+  padding-bottom: 2rem;
 }
 /* display */
 .d\(flex\) {
@@ -189,6 +189,10 @@ body {
 .br\(c\) {
   border-radius: 50%;
 }
+.b\(grey200\) {
+  border: 2px solid #7a7a7a;
+  padding: 5px;
+}
 
 .br\(40px\) {
   border-radius: 40px;
@@ -253,4 +257,9 @@ body {
 
 .of\(c\) {
   object-fit: cover;
+}
+
+.btn\(black\) {
+  background-color: black;
+  color: whitesmoke;
 }
